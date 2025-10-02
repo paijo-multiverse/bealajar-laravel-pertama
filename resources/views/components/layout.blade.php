@@ -12,7 +12,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
 <header class="bg-gray-900">
   <nav aria-label="Global" class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-    <div class="flex lg:flex-1">
+    <div class="flex lg:flex-1"> 
       <a href="#" class="-m-1.5 p-1.5">
         <span class="sr-only">Your Company</span>
         <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="" class="h-8 w-auto" />
@@ -29,7 +29,7 @@
     <el-popover-group class="hidden lg:flex lg:gap-x-12 lg:items-center">
 
       <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
-      <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
+      <x-nav-link href="/blog" :active="request()->is('blog')">Blog</x-nav-link>
       <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
       
     </el-popover-group>

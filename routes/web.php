@@ -22,3 +22,7 @@ Route::get('/blog/{slug}', function ($slug) {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/', function () {
+    return view('tailwind');
+});

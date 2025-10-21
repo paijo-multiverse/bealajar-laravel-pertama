@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
     <title>Tailwind</title>
 </head>
-<body>
+<body class="dark:bg-slate-900">
     <Button class="bg-sky-500 block mx-auto my-10 px-5 py-2 rounded-full font-semibold text-white hover:bg-sky-600 cursor-pointer active:bg-sky-700">Simpan</Button>
 
     <div class="max-w-lg my-10 border border-slate-200 rounded-2xl mx-auto p-5 shadow-md hover:bg-sky-500 hover:text-white group selection:bg-lime-300 selection:text-slate-900 font-serif">
@@ -24,5 +24,26 @@
             </label>
         </form>
     </div>
+    <hr class="my-20">
+
+        <button id="toggle" class="m-auto cursor-pointer bg-amber-300 px-4 py-2 rounded-full font-medium dark:bg-slate-800 dark:text-white dark:hover:bg-slate-400 shadow block mx-auto mb-20">Ganti Mode</button>
+    <hr class="my-20">
+
+    <div class="h-40 w-40 bg-sky-500 mx-auto rounded-lg shadow-lg hover:rotate-180 transition hover:bg-pink-500 origin-top-left"></div>
+
+    <div class="h-40 w-40 mx-auto mt-20 group">
+        <div class="h-40 w-40 bg-sky-500 mx-auto mt-20 rounded-2xl group-hover:rotate-45 transition duration-700"></div>
+    </div>
+
+    <div class="h-40 w-40 bg-pink-500 mt-20 mx-auto rounded-lg animate-wiggle"></div>
+
+    <div class="mb-96"></div>
+    <script>
+        const html = document.documentElement;
+        const button = document.getElementById('toggle');
+        button.addEventListener('click', () => {
+            html.classList.toggle('dark');
+        })
+    </script>
 </body>
 </html>

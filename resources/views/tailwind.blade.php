@@ -184,6 +184,83 @@
         </div>
     </div>
 
+
+
+    {{-- Grid System --}}
+    <div class="mt-64 p-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
+
+        <h2 class="text-xl text-slate-700 font-semibold md:col-start-4 md:row-start-2 md:flex"><span
+                class="self-center">Welcome to WPU</span>
+        </h2>
+
+        <div class="text-lg text-slate-600 font-bold col-start-2 row-start-2 md:flex"><span
+                class="self-end">@edosudrajat</span></div>
+
+        <div
+            class="bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden group hover:scale-95 transition-all duration-1000">
+            <div
+                class="h-full w-full bg-[url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170')] bg-cover bg-center group-hover:scale-125 transition-all duration-1000">
+            </div>
+        </div>
+        <div
+            class="bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-3 overflow-hidden group hover:scale-95 transition-all duration-1000">
+            <div
+                class="h-full w-full bg-[url('https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170')] bg-cover bg-center group-hover:scale-125 transition-all duration-1000">
+            </div>
+        </div>
+        <div
+            class="bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden group hover:scale-95 transition-all duration-1000">
+            <div
+                class="h-full w-full bg-[url('https://images.unsplash.com/photo-1761216466205-940be541402b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687')] bg-cover bg-center group-hover:scale-125 transition-all duration-1000">
+            </div>
+        </div>
+        <div
+            class="bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden group hover:scale-95 transition-all duration-1000">
+            <div
+                class="h-full w-full bg-[url('https://images.unsplash.com/photo-1760930019635-0d14cbfa6e83?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1074')] bg-cover bg-center group-hover:scale-125 transition-all duration-1000">
+            </div>
+        </div>
+        <div
+            class="bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden group hover:scale-95 transition-all duration-1000">
+            <div
+                class="h-full w-full bg-[url('https://plus.unsplash.com/premium_photo-1760893696251-4219904ab2a8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687')] bg-cover bg-center group-hover:scale-125 transition-all duration-1000">
+            </div>
+        </div>
+        <div
+            class="bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-2 overflow-hidden group hover:scale-95 transition-all duration-1000">
+            <div
+                class="h-full w-full bg-[url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170')] bg-cover bg-center group-hover:scale-125 transition-all duration-1000">
+            </div>
+        </div>
+        <div
+            class="bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-4 overflow-hidden group hover:scale-95 transition-all duration-1000">
+            <div
+                class="h-full w-full bg-[url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170')] bg-cover bg-center group-hover:scale-125 transition-all duration-1000">
+            </div>
+        </div>
+        <div
+            class="bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden group hover:scale-95 transition-all duration-1000">
+            <div
+                class="h-full w-full bg-[url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170')] bg-cover bg-center group-hover:scale-125 transition-all duration-1000">
+            </div>
+        </div>
+        <div
+            class="bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-3 overflow-hidden group hover:scale-95 transition-all duration-1000">
+            <div
+                class="h-full w-full bg-[url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170')] bg-cover bg-center group-hover:scale-125 transition-all duration-1000">
+            </div>
+        </div>
+        <div
+            class="bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] md:col-start-3 overflow-hidden group hover:scale-95 transition-all duration-1000">
+            <div
+                class="h-full w-full bg-[url('https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170')] bg-cover bg-center group-hover:scale-125 transition-all duration-1000">
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div class="mb-96"></div>
     <script>
         const html = document.documentElement;

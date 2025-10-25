@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth dark">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -87,22 +87,102 @@
 
     <hr class="my-20">
 
-    <section class="@container p-8">
-        <div class="@lg:p-20">
+    <section class="@container p-8 lg:flex lg:w-full lg:p-0">
+        {{-- side kiri --}}
+        <div class="lg:p-12 lg:flex-1">
             <h2 class="font-bold text-2xl mb-2 text-slate-800 dark:text-slate-300 @md:text-4xl @md:mb-6">Damage M416
                 Jarak
                 150m</h2>
             <div
-                class="w-full h-80 bg-[url('https://images.unsplash.com/photo-1713643560082-1d0a7ccc41de?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170')] rounded-2xl bg-cover bg-center @lg:bg-[center_-180px] @md:bg-[center_-100px]">
+                class="w-full h-80 bg-[url('https://images.unsplash.com/photo-1713643560082-1d0a7ccc41de?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170')] rounded-2xl bg-cover bg-center @lg:bg-[center_-180px] @md:bg-[center_-100px] lg:hidden">
             </div>
-            <p class="text-slate-700 dark:text-slate-300 @md:text-2xl @md:mt-4 @lg:text-base">Lorem ipsum dolor, sit
+            <p class="text-slate-700 dark:text-slate-300 @md:text-2xl @md:mt-4 @lg:text-base mb-2">Lorem ipsum
+                dolor, sit
                 amet
                 consectetur adipisicing elit. Voluptate officiis reiciendis facere. Tempora iure
                 qui pariatur, tempore atque veniam numquam esse rerum molestiae facilis. Nostrum tenetur dolores
                 asperiores
-                non quos aspernatur voluptas, et repellendus debitis.</p>
+                non quos aspernatur voluptas, et repellendus debitis. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Voluptates quod quo minus fuga labore nesciunt inventore rem aperiam quia tempore?
+            </p>
+
+            <a href="#"
+                class="bg-red-700 uppercase inline-block text-slate-200 px-2 py-1 rounded font-semibold">Subscribe
+                Channel Youtube</a>
+        </div>
+        {{-- side kanan --}}
+        <div class="hidden lg:flex lg:flex-1 lg:p-12">
+            <img src="https://images.unsplash.com/photo-1713643560082-1d0a7ccc41de?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                alt="" class="rounded-2xl object-cover">
         </div>
     </section>
+
+
+    <h2 class="dark:text-slate-200 font-bold text-3xl text-slate-700 text-center mt-24 mb-10">My Gallery</h2>
+
+    {{-- frame --}}
+    <div class="@container mx-auto px-6 sm:flex flex-wrap gap-10 justify-center">
+        {{-- card --}}
+        <div class="rounded-lg overflow-hidden shadow-lg mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://images.unsplash.com/photo-1713643560082-1d0a7ccc41de?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                alt="">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl text-slate-700">Image Title</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in itaque
+                    quaerat veritatis hic quam
+                    impedit praesentium accusamus, voluptatibus accusantium consequuntur quod dignissimos ipsam at,
+                    earum deserunt odit. Dignissimos, officiis.</p>
+            </div>
+        </div>
+
+        <div class="rounded-lg overflow-hidden shadow-lg mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://images.unsplash.com/photo-1713643560082-1d0a7ccc41de?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                alt="">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl text-slate-700">Image Title</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in itaque
+                    quaerat veritatis hic quam
+                    impedit praesentium accusamus, voluptatibus accusantium consequuntur quod dignissimos ipsam at,
+                    earum deserunt odit. Dignissimos, officiis.</p>
+            </div>
+        </div>
+
+        <div class="rounded-lg overflow-hidden shadow-lg mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://images.unsplash.com/photo-1713643560082-1d0a7ccc41de?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                alt="">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl text-slate-700">Image Title</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in itaque
+                    quaerat veritatis hic quam
+                    impedit praesentium accusamus, voluptatibus accusantium consequuntur quod dignissimos ipsam at,
+                    earum deserunt odit. Dignissimos, officiis.</p>
+            </div>
+        </div>
+
+        <div class="rounded-lg overflow-hidden shadow-lg mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://images.unsplash.com/photo-1713643560082-1d0a7ccc41de?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                alt="">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl text-slate-700">Image Title</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in itaque
+                    quaerat veritatis hic quam
+                    impedit praesentium accusamus, voluptatibus accusantium consequuntur quod dignissimos ipsam at,
+                    earum deserunt odit. Dignissimos, officiis.</p>
+            </div>
+        </div>
+
+        <div class="rounded-lg overflow-hidden shadow-lg mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://images.unsplash.com/photo-1713643560082-1d0a7ccc41de?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+                alt="">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl text-slate-700">Image Title</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in itaque
+                    quaerat veritatis hic quam
+                    impedit praesentium accusamus, voluptatibus accusantium consequuntur quod dignissimos ipsam at,
+                    earum deserunt odit. Dignissimos, officiis.</p>
+            </div>
+        </div>
+    </div>
 
     <div class="mb-96"></div>
     <script>
